@@ -3,6 +3,7 @@ Running on centos w/ a tool chain for developing a compiler using gcc, g++, flex
 
 Usage:
 ```
-docker pull alexgian/centos-compiler
 docker run -i -t -v $(pwd):/project alexgian/centos-compiler sh
+
+cd project
 ```
